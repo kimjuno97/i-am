@@ -3894,3 +3894,7 @@ input, select, textarea {
 		padding: 10px;
 		margin-left: 5px;
 	}
+
+	#volume-control{
+		background-color:#0ee5b5;
+	}

@@ -17,10 +17,11 @@
 					<section class="intro">
 						<header>
 							<h1>김준호</h1>
-							<audio id="player" src="shinetoday.mp3"></audio>
+							<audio volume="0.1" id="player" src="shinetoday.mp3" ></audio>
 							<div>
 								<button onclick="document.getElementById('player').play()">bgm	</button>
-								<button onclick="document.getElementById('player').pause()">mute</button>								
+								<button onclick="document.getElementById('player').pause()">mute</button><br>	
+								<input type="range" id="volume-control" min="1" max="10">							
 							</div>
 							<h2>Today, I am the best than yesterday</h2>
 							<ul class="actions">
