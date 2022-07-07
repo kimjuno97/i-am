@@ -3893,8 +3893,17 @@ input, select, textarea {
 		float: left;
 		padding: 10px;
 		margin-left: 5px;
+		transition: all 1.5s;
+	}
+	.skill1:hover{
+		height: 120px;
+		width: 120px;
 	}
 
 	#volume-control{
 		background-color:#0ee5b5;
 	}
+	.skill-link{
+		margin-top: 120px;
+	}
+	
