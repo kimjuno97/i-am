@@ -9,7 +9,7 @@ function makeCounter(){
         if(currentIndex == myImg.length-1){
            return currentIndex = 0;
        }
-        return ++currentIndex;
+        return currentIndex++;
        
     };
     
